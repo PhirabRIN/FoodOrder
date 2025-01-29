@@ -1,0 +1,120 @@
+/*
+Author: admin sunshine;
+Theme: Food Order Website admin;
+version1.0;
+*/
+
+*{
+    margin: 0.5;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.btn-primary{
+    background-color: rgb(18, 135, 220);
+    padding: 1%;
+    color: #f5f3f3;
+    text-decoration: none   ;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: rgb(6, 44, 139);
+}
+
+.btn-secondary{
+    background-color: rgb(15, 236, 118);
+    padding: 1%;
+    color: #0b0b0b;
+    text-decoration: none   ;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: rgb(18, 160, 16);
+}
+
+.btn-danger{
+    background-color: rgb(236, 87, 79);
+    padding: 1%;
+    color: #0b0b0b;
+    text-decoration: none   ;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: rgb(197, 9, 109);
+}
+.success{
+    color: rgb(9, 148, 199);
+}
+.error{
+    color: red;
+}
+/*CSS for Menu*/
+.menu{
+    border-bottom:1px solid grey ;
+}
+.menu ul{
+    list-style-type:none ;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6B84;
+}
+.menu ul li a:hover{
+    color: #ff4757;
+}
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+.col-4{
+    width: 21%;
+   background-color: white;
+   margin: 1%;
+   padding: 1%;
+   float: left;
+   
+}
+/*CSS for footer */
+.footer{
+    background-color: #e25a83;
+    color: white;
+}
+
+/*CSS for login*/
+.login{
+    border: 1px solid grey;
+    width: 25%;
+    margin: 10% auto;
+    padding: 2%;
+}
